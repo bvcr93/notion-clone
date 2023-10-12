@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Heroes() {
-  return <div>Heroes</div>;
+  return <div className="h-full"></div>;
 }
