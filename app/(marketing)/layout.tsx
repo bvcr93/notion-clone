@@ -5,7 +5,7 @@ interface Props {
 }
 export default function MarketingLayout({ children }: Props) {
   return (
-    <div className="h-full">
+    <div className="h-full dark:bg-[#1F1F1F]">
       <Navbar />
       <main className="h-full pt-40">{children}</main>
     </div>
